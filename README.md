@@ -8,6 +8,8 @@ The script starts an Nginx process in the background. It then gets the process I
 
 Finally, it kills the original Nginx process and starts a new one. This is done to keep the shell open, unless it crashes.
 
+Additional features are planned for the near future.  A guide on how to set the appropriate enviornment variables will also be included.
+
 ## How to Use
 
 This script is designed to work with a Dockerfile that sets it as the entrypoint.
